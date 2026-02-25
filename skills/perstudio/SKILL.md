@@ -3,6 +3,7 @@ name: perstudio
 description: Generate AI images and videos. Use when user asks to create images, photos, product shots, portraits, stickers, videos, or mentions perstudio.
 user-invocable: true
 homepage: https://perstudio.ai
+repository: https://github.com/montenegronyc/perstudio-openclaw
 version: 3.2.0
 metadata: {"openclaw":{"requires":{"env":["PERSTUDIO_API_KEY"],"config":["plugins.entries.perstudio.config.apiKey"]},"primaryEnv":"PERSTUDIO_API_KEY","install":[{"id":"npm","kind":"node","package":"perstudio-openclaw","global":true,"label":"Install perstudio-openclaw"}],"emoji":"🎨"}}
 ---
