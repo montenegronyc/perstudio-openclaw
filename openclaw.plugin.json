@@ -3,7 +3,7 @@
   "name": "Perstudio",
   "kind": "code",
   "description": "AI image and video generation via perstudio.ai",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "homepage": "https://perstudio.ai",
   "skills": ["skills/perstudio"],
   "configSchema": {

@@ -1,6 +1,6 @@
 {
   "name": "perstudio-openclaw",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "AI image and video generation plugin for OpenClaw — text-to-image, img2img, style transfer, upscale, video, TTS",
   "type": "module",
   "openclaw": {

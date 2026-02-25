@@ -1,5 +1,5 @@
 /**
- * Perstudio API Plugin for OpenClaw — v3.2.0
+ * Perstudio API Plugin for OpenClaw — v3.2.1
  *
  * Modal serverless GPU: generate_sync / generate / run_workflow trigger
  * auto-scaling containers. Cold starts handled by comfyui_client retry.
@@ -262,12 +262,12 @@ export default {
   id: "perstudio-api",
   name: "Perstudio API",
   description: "AI image and video generation via perstudio",
-  version: "3.2.0",
+  version: "3.2.1",
 
   register(api) {
     const logger = api.logger;
 
-    logger.info("perstudio-api: registering v3.2.0");
+    logger.info("perstudio-api: registering v3.2.1");
 
     function authHeaders() {
       const key = process.env.PERSTUDIO_API_KEY;
