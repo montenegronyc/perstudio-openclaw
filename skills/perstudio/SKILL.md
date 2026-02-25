@@ -1,6 +1,6 @@
 ---
 name: perstudio
-description: Generate AI images and videos. Use when user asks to create images, photos, product shots, portraits, stickers, videos, or mentions perstudio.
+description: Studio-grade AI image and video generation — photorealistic portraits, product shots, stickers, animations, and more. Just describe what you want.
 user-invocable: true
 homepage: https://perstudio.ai
 repository: https://github.com/montenegronyc/perstudio-openclaw
