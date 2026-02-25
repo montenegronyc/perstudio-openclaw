@@ -1,0 +1,18 @@
+{
+  "id": "perstudio",
+  "name": "Perstudio",
+  "kind": "code",
+  "description": "AI image and video generation via perstudio.ai",
+  "version": "3.2.0",
+  "homepage": "https://perstudio.ai",
+  "skills": ["skills/perstudio"],
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "enabled": { "type": "boolean" },
+      "apiKey": { "type": "string", "description": "perstudio.ai API key" },
+      "baseUrl": { "type": "string", "default": "https://api.perstudio.ai" }
+    },
+    "required": ["apiKey"]
+  }
+}

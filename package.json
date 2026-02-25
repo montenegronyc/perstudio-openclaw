@@ -1,0 +1,33 @@
+{
+  "name": "perstudio-openclaw",
+  "version": "3.2.0",
+  "description": "AI image and video generation plugin for OpenClaw — text-to-image, img2img, style transfer, upscale, video, TTS",
+  "type": "module",
+  "openclaw": {
+    "extensions": ["./index.mjs"]
+  },
+  "files": [
+    "index.mjs",
+    "openclaw.plugin.json",
+    "skills/"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "openclaw",
+    "openclaw-plugin",
+    "ai",
+    "image-generation",
+    "video-generation",
+    "comfyui",
+    "perstudio"
+  ],
+  "homepage": "https://perstudio.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/montenegronyc/perstudio-openclaw.git"
+  },
+  "license": "MIT",
+  "author": "Perstudio"
+}
