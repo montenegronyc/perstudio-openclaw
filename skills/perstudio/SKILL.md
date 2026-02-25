@@ -4,7 +4,7 @@ description: Studio-grade AI image and video generation — photorealistic portr
 user-invocable: true
 homepage: https://perstudio.ai
 repository: https://github.com/montenegronyc/perstudio-openclaw
-version: 3.2.0
+version: 3.2.1
 metadata: {"openclaw":{"requires":{"env":["PERSTUDIO_API_KEY"],"config":["plugins.entries.perstudio.config.apiKey"]},"primaryEnv":"PERSTUDIO_API_KEY","install":[{"id":"npm","kind":"node","package":"perstudio-openclaw","global":true,"label":"Install perstudio-openclaw"}],"emoji":"🎨"}}
 ---
 
