@@ -79,7 +79,7 @@ perstudio({ action: "balance" })
 
 - **File access is restricted.** The `upload_asset` action enforces a directory allowlist — only files in `~/Pictures`, `~/Downloads`, `~/Desktop`, `~/.openclaw/workspace`, and the system temp directory can be uploaded. All other paths are rejected. Paths are resolved to their real location (following symlinks) before validation to prevent traversal attacks.
 - **API key required.** All generation requests require a valid `PERSTUDIO_API_KEY`. No data is sent to perstudio.ai without authentication.
-- **Open source.** The plugin source code is available at [github.com/montenegronyc/perstudio](https://github.com/montenegronyc/perstudio) in the `openclaw-plugin/` directory for full review.
+- **Open source.** The plugin source code is available at [github.com/montenegronyc/perstudio-openclaw](https://github.com/montenegronyc/perstudio-openclaw) for full review.
 
 ## Setup
 
